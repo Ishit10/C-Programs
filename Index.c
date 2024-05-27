@@ -80,17 +80,20 @@ int main()
 
 
     // Qus 8
-    // ERROR
 
-    int salary;
-    printf("Enter your salary: ");
-    scanf("%d ",&salary);
-    printf("salary is %d\n",salary);
-    int HRA=20%salary;
-    printf("HRA is %d\n",HRA);
-    int DA=50%salary;
-    printf("DA is %d\n",DA);
-    int GS=salary+HRA+DA;
-    printf("GS is %d",GS);
+    // int basesalary,hra,da,ta;
+    // printf("Enter your base salary :");
+    // scanf("%d",&basesalary);
+    // printf("Enter HRA :");
+    // scanf("%d",&hra);
+    // printf("Enter da :");
+    // scanf("%d",&da);
+    // printf("enter ta :");
+    // scanf("%d",&ta);
+    // printf("your basesalary is %d, your hra is %d, your da is %d and your ta ia %d\n",basesalary,hra,da,ta);
+    // int grossSalary=basesalary+(basesalary*hra/100)+(basesalary*da/100)+(basesalary*ta/100);
+    // printf("grossSalary is %d\n",grossSalary);
+
+    
     return 0;
 }
