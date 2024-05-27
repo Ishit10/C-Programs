@@ -82,15 +82,15 @@ int main()
     // Qus 8
     // ERROR
 
-    // int salary;
-    // printf("Enter your salary: ");
-    // scanf("%d ",&salary);
-    // printf("salary is %d\n",salary);
-    // int HRA=20%salary;
-    // printf("HRA is %d\n",HRA);
-    // int DA=50%salary;
-    // printf("DA is %d\n",DA);
-    // int GS=salary+HRA+DA;
-    // printf("GS is %d",GS);
+    int salary;
+    printf("Enter your salary: ");
+    scanf("%d ",&salary);
+    printf("salary is %d\n",salary);
+    int HRA=20%salary;
+    printf("HRA is %d\n",HRA);
+    int DA=50%salary;
+    printf("DA is %d\n",DA);
+    int GS=salary+HRA+DA;
+    printf("GS is %d",GS);
     return 0;
 }
